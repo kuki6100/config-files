@@ -1,0 +1,231 @@
+{
+    "appLauncher": {
+        "backgroundOpacity": 1,
+        "enableClipboardHistory": false,
+        "pinnedExecs": [
+        ],
+        "position": "center",
+        "sortByMostUsed": false,
+        "useApp2Unit": false
+    },
+    "audio": {
+        "cavaFrameRate": 60,
+        "mprisBlacklist": [
+        ],
+        "preferredPlayer": "kitty",
+        "visualizerType": "mirrored",
+        "volumeOverdrive": false,
+        "volumeStep": 5
+    },
+    "bar": {
+        "backgroundOpacity": 0.71,
+        "density": "default",
+        "floating": false,
+        "marginHorizontal": 0.25,
+        "marginVertical": 0.25,
+        "monitors": [
+        ],
+        "position": "top",
+        "showCapsule": false,
+        "widgets": {
+            "center": [
+                {
+                    "formatHorizontal": "HH:mm ddd, MMM dd",
+                    "formatVertical": "HH mm - dd MM",
+                    "id": "Clock",
+                    "useMonospacedFont": true,
+                    "usePrimaryColor": true
+                },
+                {
+                    "autoHide": false,
+                    "id": "MediaMini",
+                    "scrollingMode": "hover",
+                    "showAlbumArt": false,
+                    "showVisualizer": true,
+                    "visualizerType": "mirrored"
+                }
+            ],
+            "left": [
+                {
+                    "hideUnoccupied": false,
+                    "id": "Workspace",
+                    "labelMode": "index"
+                },
+                {
+                    "autoHide": true,
+                    "id": "ActiveWindow",
+                    "scrollingMode": "hover",
+                    "showIcon": true
+                }
+            ],
+            "right": [
+                {
+                    "id": "Tray"
+                },
+                {
+                    "hideWhenZero": true,
+                    "id": "NotificationHistory",
+                    "showUnreadBadge": true
+                },
+                {
+                    "id": "WiFi"
+                },
+                {
+                    "id": "Bluetooth"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Volume"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Brightness"
+                },
+                {
+                    "id": "SystemMonitor",
+                    "showCpuTemp": false,
+                    "showCpuUsage": true,
+                    "showDiskUsage": false,
+                    "showMemoryAsPercent": false,
+                    "showMemoryUsage": true,
+                    "showNetworkStats": false
+                },
+                {
+                    "customIconPath": "",
+                    "icon": "noctalia",
+                    "id": "ControlCenter",
+                    "useDistroLogo": false
+                }
+            ]
+        }
+    },
+    "brightness": {
+        "brightnessStep": 5
+    },
+    "colorSchemes": {
+        "darkMode": false,
+        "matugenSchemeType": "scheme-neutral",
+        "predefinedScheme": "Monochrome",
+        "useWallpaperColors": false
+    },
+    "dock": {
+        "autoHide": true,
+        "backgroundOpacity": 1,
+        "exclusive": true,
+        "floatingRatio": 0.27,
+        "monitors": [
+        ],
+        "pinnedApps": [
+        ]
+    },
+    "general": {
+        "animationDisabled": false,
+        "animationSpeed": 1,
+        "avatarImage": "/home/kuku/.face",
+        "dimDesktop": false,
+        "forceBlackScreenCorners": true,
+        "radiusRatio": 1,
+        "screenRadiusRatio": 1,
+        "showScreenCorners": false
+    },
+    "hooks": {
+        "darkModeChange": "",
+        "enabled": false,
+        "wallpaperChange": ""
+    },
+    "location": {
+        "name": "cottbus",
+        "showWeekNumberInCalendar": false,
+        "use12hourFormat": false,
+        "useFahrenheit": false
+    },
+    "matugen": {
+        "enableUserTemplates": false,
+        "foot": false,
+        "fuzzel": false,
+        "ghostty": false,
+        "gtk3": false,
+        "gtk4": false,
+        "kitty": false,
+        "pywalfox": false,
+        "qt5": false,
+        "qt6": false,
+        "vesktop": false
+    },
+    "network": {
+        "wifiEnabled": true
+    },
+    "nightLight": {
+        "autoSchedule": true,
+        "dayTemp": "6500",
+        "enabled": false,
+        "forced": false,
+        "manualSunrise": "06:30",
+        "manualSunset": "18:30",
+        "nightTemp": "4000"
+    },
+    "notifications": {
+        "alwaysOnTop": true,
+        "criticalUrgencyDuration": 15,
+        "doNotDisturb": false,
+        "lastSeenTs": 1760906537000,
+        "location": "top_right",
+        "lowUrgencyDuration": 3,
+        "monitors": [
+        ],
+        "normalUrgencyDuration": 8,
+        "respectExpireTimeout": false
+    },
+    "osd": {
+        "autoHideMs": 1500,
+        "enabled": true,
+        "location": "top_right",
+        "monitors": [
+            "HDMI-A-1"
+        ]
+    },
+    "screenRecorder": {
+        "audioCodec": "opus",
+        "audioSource": "default_output",
+        "colorRange": "limited",
+        "directory": "/home/kuku/Videos",
+        "frameRate": 60,
+        "quality": "very_high",
+        "showCursor": true,
+        "videoCodec": "h264",
+        "videoSource": "portal"
+    },
+    "settingsVersion": 12,
+    "ui": {
+        "fontBillboard": "Inter",
+        "fontDefault": "Roboto",
+        "fontFixed": "DejaVu Sans Mono",
+        "idleInhibitorEnabled": false,
+        "monitorsScaling": [
+            {
+                "name": "HDMI-A-1",
+                "scale": 1
+            }
+        ]
+    },
+    "wallpaper": {
+        "directory": "/home/kuku/Pictures/Wallpapers/fedora",
+        "enableMultiMonitorDirectories": false,
+        "enabled": true,
+        "fillColor": "#4caf50",
+        "fillMode": "crop",
+        "monitors": [
+            {
+                "directory": "/home/kuku/Pictures/Wallpapers",
+                "name": "HDMI-A-1",
+                "wallpaper": "/home/kuku/Pictures/Wallpapers/fedora/pridefedora1.png"
+            }
+        ],
+        "randomEnabled": true,
+        "randomIntervalSec": 60,
+        "setWallpaperOnAllMonitors": true,
+        "transitionDuration": 1500,
+        "transitionEdgeSmoothness": 0.05,
+        "transitionType": "stripes"
+    }
+}

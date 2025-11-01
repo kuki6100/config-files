@@ -1,0 +1,24 @@
+format = "$shell $directory $fill $time $cmd_duration \n $character"
+
+[character]
+success_symbol = '[^v^](bold green) [→](green)'
+error_symbol = '[>-<](bold red) [→](green)'
+
+[cmd_duration]
+min_time = 2_000
+show_notifications = true
+
+[directory]
+truncation_length = 5
+truncation_symbol = '/'
+home_symbol = '/home/kuku'
+
+[fill]
+symbol = ' '
+style = ''
+
+[shell]
+disabled = false
+
+[time]
+disabled = false

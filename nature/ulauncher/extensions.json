@@ -1,0 +1,16 @@
+{
+    "com.github.damian-ds7.ulauncher-flathub-manager": {
+        "id": "com.github.damian-ds7.ulauncher-flathub-manager",
+        "url": "https://github.com/damian-ds7/ulauncher-flathub-manager",
+        "updated_at": "2025-09-15T08:25:29.354627",
+        "last_commit": "f8cd0a8e26bb3b64ca49d481f09520610dd7a9ab",
+        "last_commit_time": "2025-08-28T21:37:01"
+    },
+    "com.github.nastuzzisamy.ulauncher-youtube-search": {
+        "id": "com.github.nastuzzisamy.ulauncher-youtube-search",
+        "url": "https://github.com/NastuzziSamy/ulauncher-youtube-search",
+        "updated_at": "2025-09-26T17:42:33.337946",
+        "last_commit": "fe855811358b2f15ec6ed69ca18e20639874fa28",
+        "last_commit_time": "2021-03-27T11:29:18"
+    }
+}

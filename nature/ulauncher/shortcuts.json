@@ -1,0 +1,42 @@
+{
+    "96144ace-59e6-4cfe-8a3d-4b11ae94796c": {
+        "id": "96144ace-59e6-4cfe-8a3d-4b11ae94796c",
+        "name": "Stack Overflow",
+        "keyword": "so",
+        "cmd": "https://stackoverflow.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1757916887.4012094
+    },
+    "d612fb9e-9c21-45bd-ac24-df4bb629529c": {
+        "id": "d612fb9e-9c21-45bd-ac24-df4bb629529c",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1757916887.4012296
+    },
+    "5c7634f6-c344-4449-a626-ed28a65d13ab": {
+        "id": "5c7634f6-c344-4449-a626-ed28a65d13ab",
+        "name": "yts",
+        "keyword": "yts",
+        "cmd": "https://www.youtube.com/results?search_query=%s",
+        "icon": null,
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1757917113.6566198
+    },
+    "f6d780c4-c7fb-4f7f-904c-b1206d54f1c7": {
+        "id": "f6d780c4-c7fb-4f7f-904c-b1206d54f1c7",
+        "name": "Reddit",
+        "keyword": "rd",
+        "cmd": "https://www.reddit.com/search/?q=%s",
+        "icon": null,
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1761981836.3344254
+    }
+}

@@ -1,7 +1,7 @@
 {
   "$schema": "/etc/xdg/swaync/configSchema.json",
   "ignore-gtk-theme": true,
-  "positionX": "right",
+  "positionX": "center",
   "positionY": "top",
   "layer": "overlay",
   "control-center-layer": "top",
@@ -19,7 +19,7 @@
   "timeout": 10,
   "timeout-low": 5,
   "timeout-critical": 0,
-  "fit-to-screen": true,
+  "fit-to-screen": false,
   "relative-timestamps": true,
   "control-center-width": 500,
   "control-center-height": 600,
@@ -53,23 +53,13 @@
     }
   },
   "widgets": [
-    "inhibitors",
-    "curr-play",
+    "buttons-grid",
+    "volume",
     "mpris",
-    "title",
-    "dnd",
+    "inhibitors",
     "notifications"
   ],
   "widget-config": {
-    "fum": {
-	    "command": "fum",
-	    "active": true,
-	    "label": "{}"
-    },
-    "curr-play": {
-	    "text": "Currently Playing:",
-	    "max-lines": 5
-    },
     "notifications": {
       "vexpand": true
     },
@@ -86,10 +76,6 @@
     "dnd": {
       "text": "Do Not Disturb"
     },
-    "label": {
-      "max-lines": 5,
-      "text": "Label Text"
-    },
     "mpris": {
       "blacklist": [],
       "autohide": false,
@@ -97,15 +83,29 @@
       "loop-carousel": false
     },
     "buttons-grid": {
-      "buttons-per-row": 5,
+      "buttons-per-row": 7,
       "actions": [
         {
-          "label": "直",
+          "label": "WiFi",
           "type": "toggle",
           "active": true,
           "command": "sh -c '[[ $SWAYNC_TOGGLE_STATE == true ]] && nmcli radio wifi on || nmcli radio wifi off'",
           "update-command": "sh -c '[[ $(nmcli radio wifi) == \"enabled\" ]] && echo true || echo false'"
-        }
+        },
+	{
+		"label": "DnD",
+		"type": "toggle",
+		"active": false,
+		"command": "swaync-client -d"
+	},
+	{
+		"label": "Smt"
+	},
+	{
+		"label": "Clear",
+		"active": true,
+		"command": "swaync-client -c"
+	}
       ]
     }
   }

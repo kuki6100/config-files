@@ -1,7 +1,7 @@
 set +e
 
 #bg
-swaybg -i /home/kuki/Documents/Themes/NiigoMiku/images/mikupaint.jpeg -m fit -o HDMI-A-1 &
+swaybg -i /home/kuki/Documents/Themes/NiigoMiku/images/mikupaint.jpeg -m fill -o HDMI-A-1 &
 
 #bar
 waybar &

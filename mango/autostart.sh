@@ -17,3 +17,4 @@ swaync &
 
 #Res
 wlr-randr --output HDMI-A-1 --mode 3840x2160@60.00Hz --scale 1.5
+wlr-randr --output DP-1 --mode 3840x2160@60.00Hz --scale 1.6100

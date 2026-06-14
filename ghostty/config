@@ -49,10 +49,30 @@
 # resize-overlay-duration = 4s 200ms
 
 font-family = "Bedstead"
-theme = "Monokai Pro Light Sun"
-#background = #dbdbcd
+
+theme = "Fairyfloss"
+
+shell-integration-features = no-cursor
+
+# shaders
+custom-shader = /home/kuki/.config/ghostty/shaders/cursor_sweep.glsl
+custom-shader = /home/kuki/.config/ghostty/shaders/tft.glsl
+custom-shader = /home/kuki/.config/ghostty/shaders/bloom.glsl
+custom-shader = /home/kuki/.config/ghostty/shaders/mnoise.glsl
+
+# cursor
+cursor-style = block
+mouse-hide-while-typing = true
+
 #foreground = #3c6939
-background-opacity = 0.60
+
+background = #000000
+background-image = "/home/kuki/Pictures/Pride-Unity-flag-no-Ally.jpg"
+background-image-opacity = 0.25
+background-image-fit =  stretch
+background-opacity = 0.9
 background-blur = true
+
 link-previews = true
+
 keybind = global:cmd+r=reload_config
